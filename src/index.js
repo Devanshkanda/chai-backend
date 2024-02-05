@@ -16,7 +16,7 @@ connectDB()
     })
 })
 .catch((error) => {
-    console.log("MONGO DB CONNECTION FAILED !!!");
+    console.log("MONGO DB CONNECTION FAILED !!!", error);
 })
 
 // console.log(`\n printing the mongodb url : ${process.env.MONGODB_URI} \n`);
